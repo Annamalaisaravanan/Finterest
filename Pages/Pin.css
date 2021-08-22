@@ -1,0 +1,26 @@
+.pin2{
+    display:inline-flex;
+    padding:8px;
+}
+
+.contain2{
+    display:flex;
+    align-items:center;
+    box-sizing: border-box;
+    cursor:pointer;
+    width:236px;
+}
+
+img{
+    display:flex;
+    border-radius: 16px;
+    width:100%;
+    cursor: zoom-in;   
+    object-fit:cover;
+}
+
+@media(max-width:548px){
+    .pin2{
+          margin-left:15%;
+    }
+}
